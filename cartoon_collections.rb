@@ -1,5 +1,12 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(names)
+  i = 1
+  
+  names.each_with_index do |name, idx|
+    if i < names.length
+      puts i + name
+      i += 1
+    end
+  end
 end
 
 def summon_captain_planet# code an argument here
