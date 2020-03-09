@@ -11,7 +11,7 @@ end
 
 def summon_captain_planet(calls)
   calls.map do |call|
-    "#{call.first.upcase}" +"!"
+    "#{call.capitalize}" +"!"
   end
 end
 
